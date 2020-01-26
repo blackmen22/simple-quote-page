@@ -1,0 +1,53 @@
+body
+{
+	background-image: linear-gradient(black,DodgerBlue);
+	color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;	
+	text-align: justify;
+	padding: 30px;
+	margin-bottom: 40px;
+}
+
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+}
+
+.social-icons{ 
+	margin-top: 32px;
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 1;
+
+}
+
+
+.card
+{
+	color: black;
+}
+
+
+
+@media (max-width: 575px)
+{
+	.web
+	{
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+	
+	.float-left, .float-right
+	{
+		max-width: 50%;
+	}
+	
+
+}
+
